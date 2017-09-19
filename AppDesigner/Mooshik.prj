@@ -1,0 +1,96 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2561365921" file="\\central-bgl\home$\arvindn\Documents\MATLAB\Mooshik\AppDesigner\Mooshik.prj" location="\\central-bgl\home$\arvindn\Documents\MATLAB\Mooshik\AppDesigner" name="Mooshik" target="target.mlapps" target-name="Package App">
+    <param.appname>Mooshik</param.appname>
+    <param.authnamewatermark>Arvind Narayanan</param.authnamewatermark>
+    <param.email>arvind.narayanan@mathworks.in</param.email>
+    <param.company>MathWorks India Pvt. Ltd.</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>The ultimate music application</param.summary>
+    <param.description />
+    <param.screenshot>\\central-bgl\home$\arvindn\Documents\MATLAB\Mooshik\mooshik\images\newlogo.PNG</param.screenshot>
+    <param.version>4.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>\\central-bgl\home$\arvindn\Documents\MATLAB\Mooshik</param.output>
+    <param.guid>903018bf-da99-4411-a72f-82022bee64bd</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>H:\Documents\MATLAB\Mooshik\AppDesigner\dp.jpg</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\NirCmd.chm</file>
+      <file>${PROJECT_ROOT}\nircmd.exe</file>
+      <file>${PROJECT_ROOT}\nircmdc.exe</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="\\central-bgl\home$\arvindn\Documents\MATLAB" name="Mooshik" optional="false">\\central-bgl\home$\arvindn\Documents\MATLAB\Mooshik</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
